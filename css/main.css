@@ -1328,7 +1328,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #5079ff;
+  background: #82c2aa;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2701,13 +2701,13 @@ body {
   opacity: 0.6;
 }
 .sidebar {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .header-inner {
-  background: rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.6);
 }
 .popup {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 .post {
   margin-top: 50px;
@@ -2799,7 +2799,7 @@ body {
 .site-brand-container {
   background-image: url("/images/log-small.png");
   background-size: 100% 100%;
-  opacity: 0.9;
+  opacity: 0.6;
 }
 .tag-cloud a {
   box-shadow: 0 1px 3px #6f42c1, 0 1px 2px #d9534f;
@@ -2823,4 +2823,8 @@ code {
   margin-bottom: 10px;
   border: none;
   color: #010101;
+}
+#busuanzi_value_site_pv,
+#busuanzi_value_site_uv {
+  color: #00bfff;
 }
