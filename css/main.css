@@ -1328,7 +1328,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bab8ff;
+  background: #73a144;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2785,16 +2785,16 @@ body {
 }
 /* webkit, opera, IE9 */
 ::selection {
-  background: #06d633;
+  background: #dda0dd;
   color: #f7f7f7;
 }
 /* firefox */
 ::-moz-selection {
-  background: #06d633;
+  background: #dda0dd;
   color: #f7f7f7;
 }
 .highlight *::selection {
-  background: #06d633;
+  background: #dda0dd;
 }
 .site-brand-container {
   background-image: url("/images/log-small.png");
